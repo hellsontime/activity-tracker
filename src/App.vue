@@ -21,7 +21,6 @@ export default {
 
     // Check to see if user is already logged in
     const user = supabase.auth.user()
-    console.log(user)
 
     // If user does not exist, need to make app ready
     if (!user) {
