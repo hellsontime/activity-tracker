@@ -57,7 +57,7 @@ export default {
       catch(error) {
         errorMsg.value = `Error: ${error.message}`
         setTimeout(() => {
-          errorMsg.value = null
+          errorMsg.value = false
         }, 5000)
       }
       return
